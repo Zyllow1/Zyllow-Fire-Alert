@@ -1,31 +1,27 @@
 # Zyllow-Fire-Alert
 
-**Zyllow Fire Alert** est un script pour le framework FiveM destiné à améliorer la gestion des tirs d'armes dans les serveurs GTA V. Ce script fournit une solution pratique pour détecter les tirs d'arme dans le jeu, envoyer des alertes aux administrateurs et offrir une fonctionnalité de téléportation rapide.
+**Zyllow Fire Alert** is a script for the FiveM framework designed to enhance weapon fire management on GTA V servers. This script provides a practical solution for detecting weapon fire in-game, sending alerts to administrators, and offering rapid teleportation functionality.
 
-## Table des Matières
+## Table of Contents
 
 - [Description](#description)
 - [Installation](#installation)
-- [Configuration](#configuration)
-- [Commandes](#commandes)
-- [Fonctionnalités](#fonctionnalités)
-- [Contact](#contact)
 
 ## Description
 
-**Zyllow Fire Alert** est conçu pour les serveurs de rôle-play (RP) sur FiveM. Il permet de détecter les tirs d'arme en jeu, ce qui est utile pour les administrateurs cherchant à surveiller et gérer les incidents. Lorsqu'un tir est détecté, une notification est envoyée aux administrateurs avec les coordonnées du tir. Les administrateurs peuvent alors se téléporter directement à l'emplacement du tir pour une intervention rapide.
+**Zyllow Fire Alert** is designed for role-playing (RP) servers on FiveM. It allows for the detection of weapon fire in the game, which is useful for administrators looking to monitor and manage incidents. When a shot is detected, a notification is sent to administrators with the coordinates of the shot. Administrators can then teleport directly to the shot location for quick intervention.
 
-### Fonctionnalités principales :
+### Key Features:
 
-- **Détection des tirs :** Surveillance en temps réel des tirs d'arme et enregistrement des coordonnées des tirs détectés.
-- **Notifications aux administrateurs :** Envoi de notifications aux administrateurs du serveur avec les coordonnées des tirs.
-- **Téléportation :** Fonctionnalité permettant aux administrateurs de se téléporter à la position du tir en appuyant sur une touche spécifique.
-- **Commande de gestion :** Commande `/ShowShoot` pour activer ou désactiver la détection des tirs.
+- **Shot Detection:** Real-time monitoring of weapon fire and recording of the coordinates of detected shots.
+- **Administrator Notifications:** Sending notifications to server administrators with the coordinates of the shots.
+- **Teleportation:** Functionality allowing administrators to teleport to the shot position by pressing a specific key.
+- **Management Command:** `/ShowShoot` command to enable or disable shot detection.
 
 ## Installation
 
-1. **Téléchargez le script :**
+1. **Download the Script:**
 
-   Clonez ce dépôt dans le répertoire de ressources de votre serveur FiveM :
+   Clone this repository into your FiveM server resources directory:
    ```bash
    git clone https://github.com/Zyllow1/zyllow-fire-alert.git
